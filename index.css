@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg {
+  /* background-image: url('https://assets.ccbp.in/frontend/react-js/speedometer-img.png'); */
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Main_headng {
+  color: white;
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: italic;
+}
+.img_size {
+  width: 50%;
+}
+.Sub_headng {
+  color: white;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.descrption {
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.button1 {
+  background-color: blue;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: point;
+  outline: none;
+}
+.button2 {
+  background-color: #07080c;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: white;
+  cursor: point;
+  outline: none;
+}
